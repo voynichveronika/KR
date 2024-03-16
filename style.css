@@ -11,18 +11,16 @@
 }
 
 
-.back { left: 0px; top: 0px; }
-
 .container {
     position: relative;
-    left: 310px;
+    left: 150px;
     width: 100%;
     max-width: 2104px;
 }
 
 .container img {
-    width: 100%;
-    height: auto;
+    width: 2304px;
+    height: 1183px;
 }
 
 .container .btn1 {
@@ -31,20 +29,16 @@
     left: 0px;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    background-color: #555;
+    background-image: url(uslugi.jpg);
+    background-position: -300px;
     color: white;
     font-size: 16px;
     padding: 12px 24px;
     border: none;
-    cursor: pointer;
     border-radius: 50%;
     text-align: center;
     width: 150px; 
     height: 150px;
-}
-
-.container .btn1:hover {
-    background-color: black;
 }
 
 
@@ -54,20 +48,16 @@
     left: 0px;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    background-color: #555;
+    background-image: url(ceny.jpg);
+    background-position: -420px;
     color: white;
     font-size: 16px;
     padding: 12px 24px;
     border: none;
-    cursor: pointer;
     border-radius: 50%;
     text-align: center;
     width: 150px; 
     height: 150px;
-}
-
-.container .btn2:hover {
-    background-color: black;
 }
 
 
@@ -77,20 +67,16 @@
     left: 0px;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    background-color: #555;
+    background-image: url(bronirovanie.jpg);
+    background-position: -380px;
     color: white;
     font-size: 16px;
     padding: 12px 24px;
     border: none;
-    cursor: pointer;
     border-radius: 50%;
     text-align: center;
     width: 150px; 
     height: 150px;
-}
-
-.container .btn3:hover {
-    background-color: black;
 }
 
 
@@ -100,20 +86,16 @@
     left: 0px;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    background-color: #555;
+    background-image: url(kontakty.jpg);
+    background-position: -940px;
     color: white;
     font-size: 16px;
     padding: 12px 24px;
     border: none;
-    cursor: pointer;
     border-radius: 50%;
     text-align: center;
     width: 150px; 
     height: 150px;
-}
-
-.container .btn4:hover {
-    background-color: black;
 }
 
 
@@ -123,20 +105,16 @@
     left: 0px;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    background-color: #555;
+    background-image: url(photo.jpg);
+    background-position: top 350px left 440px;
     color: white;
     font-size: 16px;
     padding: 12px 24px;
     border: none;
-    cursor: pointer;
     border-radius: 50%;
     text-align: center;
     width: 150px; 
     height: 150px;
-}
-
-.container .btn5:hover {
-    background-color: black;
 }
 
 
@@ -146,18 +124,121 @@
     left: 0px;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    background-color: #555;
+    background-image: url(onas.jpg);
+    background-position: -400px,-200px;
     color: white;
     font-size: 16px;
     padding: 12px 24px;
     border: none;
-    cursor: pointer;
     border-radius: 50%;
     text-align: center;
     width: 150px; 
     height: 150px;
 }
 
-.container .btn6:hover {
-    background-color: black;
+
+.text1{
+    position: absolute;
+    top: 60px;
+    left: 120px;
+    color: black;
+    font-family: segoe print;
+    font-size: 50px;
+}
+
+.container .text1:hover {
+   color: red;
+   cursor: pointer;
+   font-size: 65px;
+   top: 45px;
+   left: 90px;
+}
+
+.text2{
+    position: absolute;
+    top: 260px;
+    left: 120px;
+    color: black;
+    font-family: segoe print;
+    font-size: 50px;
+}
+
+.container .text2:hover {
+   color: red;
+   cursor: pointer;
+   font-size: 65px;
+   top: 245px;
+    left: 90px;
+}
+
+.text3{
+    position: absolute;
+    top: 460px;
+    left: 120px;
+    color: black;
+    font-family: segoe print;
+    font-size: 50px;
+}
+
+
+.container .text3:hover {
+   color: red;
+   cursor: pointer;
+      font-size: 65px;
+   top: 445px;
+   left: 90px;
+}
+
+.text4{
+    position: absolute;
+    top: 660px;
+    left: 120px;
+    color: black;
+    font-family: segoe print;
+    font-size: 50px;
+}
+
+
+.container .text4:hover {
+   color: red;
+   cursor: pointer;
+      font-size: 65px;
+   top: 645px;
+   left: 90px;
+}
+
+.text5{
+    position: absolute;
+    top: 860px;
+    left: 120px;
+    color: black;
+    font-family: segoe print;
+    font-size: 50px;
+}
+
+
+.container .text5:hover {
+   color: red;
+   cursor: pointer;
+   font-size: 65px;
+   top: 845px;
+   left: 90px;
+}
+
+.text6{
+    position: absolute;
+    top: 1060px;
+    left: 120px;
+    color: black;
+    font-family: segoe print;
+    font-size: 50px;
+}
+
+
+.container .text6:hover {
+   color: red;
+   cursor: pointer;
+   font-size: 65px;
+   top: 1045px;
+   left: 90px;
 }
