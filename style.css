@@ -5,7 +5,7 @@
 .bkimg{
     width: 100%;
     height: 100%;
-    background: url(agr2.png);
+    background: url(agr.png);
     background-size: cover;
 
 }
@@ -144,10 +144,20 @@
     color: black;
     font-family: segoe print;
     font-size: 50px;
+    text-decoration: none; 
 }
 
+
+ A {
+    text-decoration: none; /* Убирает подчеркивание для ссылок */
+    color: black;
+   } 
+   A:hover { 
+    color: red; /* Ссылка красного цвета */
+   } 
+
+
 .container .text1:hover {
-   color: red;
    cursor: pointer;
    font-size: 65px;
    top: 45px;
@@ -164,7 +174,6 @@
 }
 
 .container .text2:hover {
-   color: red;
    cursor: pointer;
    font-size: 65px;
    top: 245px;
@@ -182,7 +191,6 @@
 
 
 .container .text3:hover {
-   color: red;
    cursor: pointer;
       font-size: 65px;
    top: 445px;
@@ -200,7 +208,6 @@
 
 
 .container .text4:hover {
-   color: red;
    cursor: pointer;
       font-size: 65px;
    top: 645px;
@@ -218,7 +225,6 @@
 
 
 .container .text5:hover {
-   color: red;
    cursor: pointer;
    font-size: 65px;
    top: 845px;
@@ -236,9 +242,37 @@
 
 
 .container .text6:hover {
-   color: red;
    cursor: pointer;
    font-size: 65px;
    top: 1045px;
    left: 90px;
 }
+
+
+.container .btn7 {
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-image: url(uslugi.jpg);
+    background-position: -300px;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 50%;
+    text-align: center;
+    width: 150px; 
+    height: 150px;
+}
+
+.text7{
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    color: black;
+    font-family: segoe print;
+    font-size: 50px;
+}
+
