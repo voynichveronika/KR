@@ -276,3 +276,22 @@
     font-size: 50px;
 }
 
+
+.f {
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
+
+
+.content{
+    height: 300px; 
+    width: 759.473px; 
+    position: relative; 
+    overflow: hidden;
+}
+
+
+.txcl {
+    color: red;
+}
