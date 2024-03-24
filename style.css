@@ -719,6 +719,7 @@ ul li:before {
     position: relative;
     left: -30px;
 }
+<<<<<<< HEAD
 
 
 .page-title {
@@ -764,3 +765,5 @@ ul li:before {
 .next-button {
   right: 10px;
 }
+=======
+>>>>>>> 20e64ade9c60d6a13daa4fa46aaaf34db64ce11c
