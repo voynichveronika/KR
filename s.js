@@ -16,37 +16,44 @@ function vivod()
         if (phone == "")
         {
             document.querySelector('.v1').innerHTML = "Поля отмеченные * обязательны для заполнения";  
-        }
-        else
-        {  
-
-        /*var t1 = document.getElementsByTagName("input")[0];
-                                                                                            var val1 = t1.value;                                              
-                                                                                            document.querySelector('.v1').innerHTML = "Фамилия: " + val1;
-
-                                                                                            var t2 = document.getElementsByTagName("input")[1];
-                                                                                            var val2 = t2.value;                                              
-                                                                                            document.querySelector('.v2').innerHTML = "Имя: " + val2;
-
-                                                                                            var t3 = document.getElementsByTagName("input")[2];
-                                                                                            var val3 = t3.value;                                              
-                                                                                            document.querySelector('.v3').innerHTML = "Пароль: " + val3;
-
-                                                                                            var t4 = document.getElementsByTagName("input")[3];
-                                                                                            var val4 = t4.value;                                              
-                                                                                            document.querySelector('.v4').innerHTML = "Подтверждение пароля: " + val4;
-
-                                                                                            var t5 = document.getElementsByTagName("input")[4];
-                                                                                            var val5 = t5.value;                                              
-                                                                                            document.querySelector('.v5').innerHTML = "E-mail: " + val5;
-
-                                                                                            var t6 = document.getElementsByTagName("input")[5];
-                                                                                            var val6 = t6.value;                                              
-                                                                                            document.querySelector('.v6').innerHTML = "Телефон: " + val6;
-
-                                                                                            var t7 = document.getElementsByTagName("input")[6];
-                                                                                            var val7 = t7.value;                                              
-                                                                                            document.querySelector('.v7').innerHTML = "Возраст: " + val7;*/                                                      
-        }                    
+        }                   
     }
 }
+
+
+const slider = document.querySelector('.slider');
+const prevButton = document.querySelector('.prev-button');
+const nextButton = document.querySelector('.next-button');
+const slides = Array.from(slider.querySelectorAll('img'));
+const slideCount = slides.length;
+let slideIndex = 0;
+
+// Устанавливаем обработчики событий для кнопок
+prevButton.addEventListener('click', showPreviousSlide);
+nextButton.addEventListener('click', showNextSlide);
+
+// Функция для показа предыдущего слайда
+function showPreviousSlide() {
+  slideIndex = (slideIndex - 1 + slideCount) % slideCount;
+  updateSlider();
+}
+
+// Функция для показа следующего слайда
+function showNextSlide() {
+  slideIndex = (slideIndex + 1) % slideCount;
+  updateSlider();
+}
+
+// Функция для обновления отображения слайдера
+function updateSlider() {
+  slides.forEach((slide, index) => {
+    if (index === slideIndex) {
+      slide.style.display = 'block';
+    } else {
+      slide.style.display = 'none';
+    }
+  });
+}
+
+// Инициализация слайдера
+updateSlider();
