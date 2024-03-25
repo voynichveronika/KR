@@ -922,3 +922,391 @@ ul li:before {
     left: 900px;
     z-index: 2; 
 opacity: 0;}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    height: 1100px;
+    margin: 0px auto 0;
+    position: relative;
+    width: 2350px;
+}
+
+.slider {
+    background-color: #ddd;
+    height: inherit;
+    overflow: hidden;
+    position: relative;
+    width: inherit;
+    -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+    -moz-box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+    -o-box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+    box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+}
+
+.wrapper > input {
+    display: none;
+}
+
+
+.slides {
+    height: inherit;
+    position: absolute;
+    width: inherit;
+}
+
+
+.slide1 { 
+    background-image: url(1.jpg); 
+    display: block;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.slide2 {
+ background-image: url(2.jpg); 
+display: block;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.slide3 { 
+    background-image: url(3.jpg); 
+display: block;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.slide4 { 
+    background-image: url(4.jpg); 
+display: block;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.slide5 { 
+    background-image: url(5.jpg);
+display: block;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+ }
+ .slide6 { 
+    background-image: url(6.jpg);
+display: block;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+ }
+ .slide7 { 
+    background-image: url(7.jpg);
+display: block;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+ }
+ .slide8 { 
+    background-image: url(8.jpg);
+display: block;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+ }
+ .slide9 { 
+    background-image: url(9.jpg);
+display: block;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+ }
+ .slide10 { 
+    background-image: url(10.jpg);
+display: block;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+ }
+ .slide11 { 
+    background-image: url(11.jpg);
+display: block;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+ }
+ .slide12 { 
+    background-image: url(12.jpg);
+display: block;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+ }
+ .slide13 { 
+    background-image: url(13.jpg);
+display: block;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+ }
+ .slide14 { 
+    background-image: url(14.jpg);
+display: block;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+ }
+ .slide15 { 
+    background-image: url(15.jpg);
+display: block;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+ }
+ .slide16 { 
+    background-image: url(16.jpg);
+display: block;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+ }
+ .slide17 { 
+    background-image: url(17.jpg);
+display: block;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+ }
+ .slide18 { 
+    background-image: url(18.jpg);
+display: block;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+ }
+ .slide19 { 
+    background-image: url(19.jpg);
+display: block;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+ }
+ .slide20 { 
+    background-image: url(20.jpg);
+display: block;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+ }
+ .slide21 { 
+    background-image: url(21.jpg);
+display: block;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+ }
+ .slide22 { 
+    background-image: url(22.jpg);
+display: block;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+ }
+ .slide23 { 
+    background-image: url(23.jpg);
+display: block;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+ }
+ .slide24 { 
+    background-image: url(24.jpg);
+display: block;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+ }
+
+
+
+.wrapper .controls {
+    left: 30%;
+    margin-left: -98px;
+    position: absolute;
+}
+
+.wrapper label {
+    cursor: pointer;
+    display: inline-block;
+    height: 8px;
+    margin: 25px 12px 0 16px;
+    position: relative;
+    width: 8px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.wrapper label:after {
+    border: 2px solid #ddd;
+    content: " ";
+    display: block;
+    height: 30px;
+    left: -4px;
+    position: absolute;
+    top: -4px;
+    width: 30px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.wrapper label {
+    cursor: pointer;
+    display: inline-block;
+    height: 24px;
+    margin: 25px 12px 10 16px;
+    position: relative;
+    width: 24px;
+    -webkit-border-radius: 20%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-transition: background ease-in-out .5s;
+    -moz-transition: background ease-in-out .5s;
+    -o-transition: background ease-in-out .5s;
+    transition: background ease-in-out .5s;
+}
+
+.wrapper label:hover, 
+#slide1:checked ~ .controls label:nth-of-type(1),
+#slide2:checked ~ .controls label:nth-of-type(2),
+#slide3:checked ~ .controls label:nth-of-type(3),
+#slide4:checked ~ .controls label:nth-of-type(4),
+#slide5:checked ~ .controls label:nth-of-type(5),
+#slide6:checked ~ .controls label:nth-of-type(6),
+#slide7:checked ~ .controls label:nth-of-type(7),
+#slide8:checked ~ .controls label:nth-of-type(8),
+#slide9:checked ~ .controls label:nth-of-type(9),
+#slide10:checked ~ .controls label:nth-of-type(10),
+#slide11:checked ~ .controls label:nth-of-type(11),
+#slide12:checked ~ .controls label:nth-of-type(12),
+#slide13:checked ~ .controls label:nth-of-type(13),
+#slide14:checked ~ .controls label:nth-of-type(14),
+#slide15:checked ~ .controls label:nth-of-type(15),
+#slide16:checked ~ .controls label:nth-of-type(16),
+#slide17:checked ~ .controls label:nth-of-type(17),
+#slide18:checked ~ .controls label:nth-of-type(18),
+#slide19:checked ~ .controls label:nth-of-type(19),
+#slide20:checked ~ .controls label:nth-of-type(20),
+#slide21:checked ~ .controls label:nth-of-type(21),
+#slide22:checked ~ .controls label:nth-of-type(22),
+#slide23:checked ~ .controls label:nth-of-type(23),
+#slide24:checked ~ .controls label:nth-of-type(24) {
+    background: #ddd;
+}
+
+.slides {
+    height: inherit;
+    opacity: 0;
+    position: absolute;
+    width: inherit;
+    z-index: 0;
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    transform: scale(1.5);
+    -webkit-transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+    -moz-transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+    -o-transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+    transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+}
+
+#slide1:checked ~ .slider > .slide1,
+#slide2:checked ~ .slider > .slide2,
+#slide3:checked ~ .slider > .slide3,
+#slide4:checked ~ .slider > .slide4,
+#slide5:checked ~ .slider > .slide5,
+#slide6:checked ~ .slider > .slide6,
+#slide7:checked ~ .slider > .slide7,
+#slide8:checked ~ .slider > .slide8,
+#slide9:checked ~ .slider > .slide9,
+#slide10:checked ~ .slider > .slide10,
+#slide11:checked ~ .slider > .slide11,
+#slide12:checked ~ .slider > .slide12,
+#slide13:checked ~ .slider > .slide13,
+#slide14:checked ~ .slider > .slide14,
+#slide15:checked ~ .slider > .slide15,
+#slide16:checked ~ .slider > .slide16,
+#slide17:checked ~ .slider > .slide17,
+#slide18:checked ~ .slider > .slide18,
+#slide19:checked ~ .slider > .slide19,
+#slide20:checked ~ .slider > .slide20,
+#slide21:checked ~ .slider > .slide21,
+#slide22:checked ~ .slider > .slide22,
+#slide23:checked ~ .slider > .slide23,
+#slide24:checked ~ .slider > .slide24 {
+    opacity: 1;
+    z-index: 1;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+}
