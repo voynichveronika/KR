@@ -39,40 +39,8 @@
     text-align: center;
     width: 170px; 
     height: 170px;
-    background-image-animation: moveText 5s infinite;
 }
 
-@keyframes moveText {
-
-
-0% {
-
-
-transform: translateX(0);
-
-
-}
-
-
-50% {
-
-
-transform: translateX(200px);
-
-
-}
-
-
-100% {
-
-
-transform: translateX(0);
-
-
-}
-
-
-}
 
 .container .btn2 {
     position: absolute;
@@ -1347,8 +1315,8 @@ display: block;
 
 .layer25 {
     position: absolute;
-    top: 700px;
-    left: 150px;
+    top: 660px;
+    left: 190px;
     z-index: 2; }
 
 
@@ -1568,4 +1536,244 @@ height: 100px;
   top: 2200px;
   left: 0px;
   opacity: 0;
+}
+
+
+.k1{
+    position: absolute;
+    top: 20px;
+    left: 340px;
+}
+
+
+.k2{
+    position: absolute;
+    top: 220px;
+    left: 340px;
+}
+
+
+.k3{
+    position: absolute;
+    top: 430px;
+    left: 340px;
+}
+
+.k4{
+    position: absolute;
+    top: 625px;
+    left: 340px;
+}
+
+.k5{
+    position: absolute;
+    top: 830px;
+    left: 340px;
+}
+
+.k6{
+    position: absolute;
+    top: 1025px;
+    left: 340px;
+}
+
+
+
+.kont1{
+    position: absolute;
+    left: 160px;
+    top: 160px;
+    font-size: 21px;
+    font-family: Proxima Nova;
+    text-align: justify;
+    width: 1000px;
+    color: gray;
+}
+
+.kont5{
+    position: absolute;
+    left: 160px;
+    top: 190px;
+    font-size: 30px;
+    font-family: Proxima Nova;
+    text-align: justify;
+    width: 1000px;
+}
+
+
+.kont2{
+    position: absolute;
+    left: 160px;
+    top: 285px;
+    font-size: 21px;
+    font-family: Proxima Nova;
+    text-align: justify;
+    width: 1000px;
+   color: gray;
+}
+
+.kont6{
+    position: absolute;
+    left: 160px;
+    top: 315px;
+    font-size: 30px;
+    font-family: Proxima Nova;
+    text-align: justify;
+    width: 1000px;
+}
+
+
+
+.kont3{
+    position: absolute;
+    left: 160px;
+    top: 415px;
+    font-size: 21px;
+    font-family: Proxima Nova;
+    text-align: justify;
+    width: 1000px;
+    color: gray;
+}
+
+.kont7{
+    position: absolute;
+    left: 160px;
+    top: 440px;
+    font-size: 30px;
+    font-family: Proxima Nova;
+    text-align: justify;
+    width: 1000px;
+}
+
+
+
+.kont4{
+    position: absolute;
+    left: 160px;
+    top: 547px;
+    font-size: 21px;
+    font-family: Proxima Nova;
+    text-align: justify;
+    width: 1000px;
+    color: gray;
+}
+
+.kont8{
+    position: absolute;
+    left: 160px;
+    top: 577px;
+    font-size: 30px;
+    font-family: Proxima Nova;
+    text-align: justify;
+    width: 1000px;
+}
+
+
+
+.t1{
+    position: absolute;
+    top: 150px;
+    left: 220px;
+}
+
+.t2{
+    position: absolute;
+    top: 280px;
+    left: 220px;
+}
+
+.t3{
+    position: absolute;
+    top: 410px;
+    left: 220px;
+}
+
+.t4{
+    position: absolute;
+    top: 540px;
+    left: 220px;
+}
+
+
+.tab1{
+    position: absolute;
+    top: 220px;
+    left: 80px;
+    z-index: 2; 
+}
+
+.tab2{
+    position: absolute;
+    top: 800px;
+    left: 80px;
+    z-index: 2; 
+}
+
+.tab3{
+    position: absolute;
+    top: 1385px;
+    left: 80px;
+    z-index: 2; 
+}
+
+
+  TABLE {
+    border-collapse: collapse; 
+    width: 850px;
+    height: 490px;
+    font-size: 30px;
+   }
+   TH { 
+
+    text-align: center;
+    border: 1px solid black; 
+    padding: 4px;
+   }
+
+
+
+   .c1{
+    position: absolute;
+    left: 80px;
+    top: 160px;
+    font-size: 35px;
+    font-family: Proxima Nova;
+    text-align: center;
+    width: 850px;
+    font-weight: bold;
+}
+
+
+   .c2{
+    position: absolute;
+    left: 80px;
+    top: 740px;
+    font-size: 35px;
+    font-family: Proxima Nova;
+    text-align: center;
+    width: 850px;
+    font-weight: bold;
+}
+
+  .c3{
+    position: absolute;
+    left: 80px;
+    top: 1325px;
+    font-size: 35px;
+    font-family: Proxima Nova;
+    text-align: center;
+    width: 850px;
+    font-weight: bold;
+}
+
+  .c4{
+    position: absolute;
+    left: 80px;
+    top: 2125px;
+    font-size: 35px;
+    font-family: Proxima Nova;
+    text-align: center;
+    width: 850px;
+    font-weight: bold;
+    opacity: 0;
 }
