@@ -39,8 +39,40 @@
     text-align: center;
     width: 170px; 
     height: 170px;
+    background-image-animation: moveText 5s infinite;
 }
 
+@keyframes moveText {
+
+
+0% {
+
+
+transform: translateX(0);
+
+
+}
+
+
+50% {
+
+
+transform: translateX(200px);
+
+
+}
+
+
+100% {
+
+
+transform: translateX(0);
+
+
+}
+
+
+}
 
 .container .btn2 {
     position: absolute;
@@ -683,7 +715,7 @@ font-weight: lighter;
 .usl8{
     position: absolute;
     left: 0px;
-    top: 1610px;
+    top: 1650px;
     font-size: 30px;
     font-family: Proxima Nova;
     text-align: justify;
@@ -831,7 +863,6 @@ ul li:before {
     top: 560px;
     left: 900px;
     z-index: 2; }
-
 
 
 
@@ -1347,4 +1378,194 @@ display: block;
     -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   opacity: 0.3;
+}
+
+
+
+.texton1{
+    position: absolute;
+    left: 0px;
+    top: 130px;
+    font-size: 30px;
+    font-family: Proxima Nova;
+    text-align: justify;
+    width: 1000px;
+    font-weight: bold;
+}
+
+
+.texton2{
+    position: absolute;
+    left: 0px;
+    top: 313px;
+    font-size: 30px;
+    font-family: Proxima Nova;
+    text-align: justify;
+    width: 1000px;
+}
+
+
+.texton3{
+    position: absolute;
+    left: 0px;
+    top: 430px;
+    font-size: 30px;
+    font-family: Proxima Nova;
+    text-align: justify;
+    width: 1000px;
+}
+
+.texton4{
+    position: absolute;
+    left: 0px;
+    top: 615px;
+    font-size: 30px;
+    font-family: Proxima Nova;
+    text-align: justify;
+    width: 1000px;
+    font-weight: bold;
+}
+
+
+.texton5{
+    position: absolute;
+    left: 0px;
+    top: 665px;
+    font-size: 30px;
+    font-family: Proxima Nova;
+    text-align: justify;
+    width: 1000px;
+}
+
+
+.texton6{
+    position: absolute;
+    left: 0px;
+    top: 845px;
+    font-size: 30px;
+    font-family: Proxima Nova;
+    text-align: justify;
+    width: 1000px;
+}
+
+
+.texton7{
+    position: absolute;
+    left: 0px;
+    top: 1130px;
+    font-size: 30px;
+    font-family: Proxima Nova;
+    text-align: justify;
+    width: 1000px;
+}
+
+
+.texton8{
+    position: absolute;
+    left: 0px;
+    top: 1215px;
+    font-size: 30px;
+    font-family: Proxima Nova;
+    text-align: justify;
+    width: 1000px;
+    font-weight: bold;
+}
+
+
+.texton9{
+    position: absolute;
+    left: 0px;
+    top: 1260px;
+    font-size: 30px;
+    font-family: Proxima Nova;
+    text-align: justify;
+    width: 1000px;
+}
+
+
+.texton10{
+    position: absolute;
+    left: 0px;
+    top: 1440px;
+    font-size: 30px;
+    font-family: Proxima Nova;
+    text-align: justify;
+    width: 1000px;
+}
+
+
+.texton11{
+    position: absolute;
+    left: 0px;
+    top: 1550px;
+    font-size: 30px;
+    font-family: Proxima Nova;
+    text-align: justify;
+    width: 1000px;
+}
+
+
+.texton12{
+    position: absolute;
+    left: 0px;
+    top: 1630px;
+    font-size: 30px;
+    font-family: Proxima Nova;
+    text-align: justify;
+    width: 1000px;
+    font-weight: bold;
+}
+
+.texton13{
+    position: absolute;
+    left: 0px;
+    top: 1675px;
+    font-size: 30px;
+    font-family: Proxima Nova;
+    text-align: justify;
+    width: 1000px;
+}
+
+
+.texton14{
+    position: absolute;
+    left: 0px;
+    top: 1790px;
+    font-size: 30px;
+    font-family: Proxima Nova;
+    text-align: justify;
+    width: 1000px;
+}
+
+
+.texton15{
+    position: absolute;
+    left: 0px;
+    top: 2035px;
+    font-size: 30px;
+    font-family: Proxima Nova;
+    text-align: justify;
+    width: 1000px;
+}
+
+
+.texton16{
+    position: absolute;
+    left: 0px;
+    top: 2110px;
+    font-size: 30px;
+    font-family: Proxima Nova;
+    text-align: justify;
+    width: 1000px;
+}
+
+
+
+.r {
+    position: absolute;
+width: 100px;
+height: 100px;
+  top: 2200px;
+  left: 0px;
+  opacity: 0;
 }
