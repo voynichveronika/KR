@@ -1,11 +1,11 @@
 function vivod()
 {               
-    var name  = document.getElementById('text1').value;
-    var phone = document.getElementById('text2').value;
-    var datez = document.getElementById('text3').value;
-    var datev = document.getElementById('text4').value;
-    var kol = document.getElementById('text5').value;
-    var inf = document.getElementById('text6').value;
+    let name  = document.getElementById('text1').value;
+    let phone = document.getElementById('text2').value;
+    let datez = document.getElementById('text3').value;
+    let datev = document.getElementById('text4').value;
+    let kol = document.getElementById('text5').value;
+    let inf = document.getElementById('text6').value;
 
     if (name == "")
     {
@@ -25,6 +25,8 @@ function vivod()
             document.getElementById('text4').value = "";
             document.getElementById('text5').value = "";
             document.getElementById('text6').value = "";
+            alert('Данные отправлены');
+            document.querySelector('.v1').innerHTML = '';
         }                                  
     }
 }
